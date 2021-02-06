@@ -1,0 +1,40 @@
+{
+  "name": "sourced-typings-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexZeitler/sourced-typings-repro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexZeitler/sourced-typings-repro/issues"
+  },
+  "homepage": "https://github.com/AlexZeitler/sourced-typings-repro#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-angular": "^11.0.0",
+    "@types/node": "10",
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/parser": "^4.14.2",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-watch": "^7.0.0",
+    "husky": "^4.3.8",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
+    "ts-mocha": "^8.0.0",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "sourced": "^2.0.8"
+  }
+}
